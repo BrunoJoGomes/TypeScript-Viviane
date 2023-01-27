@@ -17,3 +17,6 @@ tsconfig.json - arquivo de configuração
 5 - Instalar o nodemon para rodar nosso projeto
 'npm install --save-dev nodemon' e em seguida o comando 'npm install -D ts-node'
 
+6 - Em seguida ir no package.json e colocar abaixo do script de teste o nosso script para rodar o projeto
+"start-dev":"nodemon src/index.ts"
+
